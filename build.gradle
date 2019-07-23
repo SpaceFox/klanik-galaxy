@@ -12,7 +12,8 @@ repositories {
 }
 
 dependencies {
-	compileOnly 'org.projectlombok:lombok:1.18.8'
+    compileOnly 'org.jetbrains:annotations:17.0.0'
+    compileOnly 'org.projectlombok:lombok:1.18.8'
 	annotationProcessor 'org.projectlombok:lombok:1.18.8'
     
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.5.1")
